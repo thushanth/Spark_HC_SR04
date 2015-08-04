@@ -1,6 +1,6 @@
 #include "HC_SR04.h"
 HC_SR04::HC_SR04(int trigPin, int echoPin){
-  _minCM = 10.0;
+  _minCM = 2.0;
   _maxCM = 250.0;
   _trigPin = trigPin;
   _echoPin = echoPin;
